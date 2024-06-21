@@ -17,6 +17,6 @@ pip install -q "transformers>=4.33.1" "torch>=2.1" "openvino>=2023.1.0" "numpy>=
 pip install -q --extra-index-url https://download.pytorch.org/whl/cpu torch "datasets>=2.14.6" accelerate soundfile librosa "gradio>=4.19" jiwer
 ```
 
-For more details, refer to the following documentation: [OpenVINO Documentation](https://docs.openvino.ai/2024/notebooks/mms-massively-multilingual-speech-with-output.html)
+For more details, refer: [OpenVINO Documentation](https://docs.openvino.ai/2024/notebooks/mms-massively-multilingual-speech-with-output.html)
 
 ---
