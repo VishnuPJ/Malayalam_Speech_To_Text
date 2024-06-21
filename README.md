@@ -1,7 +1,10 @@
 # Malayalam_Speech_To_Text
 
 This Python script records audio from the microphone, processes it, and transcribes it using Facebook's Wav2Vec2 model and the Hugging Face Transformers library.
+1) Using direct Hugging face library.
+2) Using OpenVINO Intermediate Representation.
 
+Please check the model details: [mms-1b-all](https://huggingface.co/facebook/mms-1b-all)
 ## Prerequisites
 
 Make sure you have the following libraries installed:
