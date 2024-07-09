@@ -2,11 +2,11 @@
 
 This Python script records audio from the microphone, processes it, and transcribes it using Facebook's Wav2Vec2 model.
 
-I have tried two approaches:
-  1) Using direct Hugging face library.
+I have tried three approaches:
+  1) Using direct Hugging face library [mms-1b-all](https://huggingface.co/facebook/mms-1b-all)
   2) Using Intel OpenVINO Intermediate Representation.
-
-Please check the model details: [mms-1b-all](https://huggingface.co/facebook/mms-1b-all)
+  3) Using [Bajiyo/w2v-bert-2.0-nonstudio_and_studioRecords_final](https://huggingface.co/Bajiyo/w2v-bert-2.0-nonstudio_and_studioRecords_final) Huggingface model.
+ 
 ## Prerequisites
 
 Make sure you have the following libraries installed:
